@@ -1,0 +1,11 @@
+{
+  "appId": "com.example.app",
+  "appName": "ios-bug-repro-app",
+  "bundledWebRuntime": false,
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}
