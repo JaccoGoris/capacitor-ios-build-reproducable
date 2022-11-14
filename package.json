@@ -10,15 +10,21 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "ionic:serve": "vite start",
+    "ionic:build": "vite build",
+    "start:app": "ionic capacitor run -l --external ios"
   },
   "dependencies": {
-    "@capacitor/core": "latest",
+    "@capacitor/android": "4.4.0",
     "@capacitor/camera": "latest",
+    "@capacitor/core": "latest",
+    "@capacitor/ios": "4.4.0",
     "@capacitor/splash-screen": "latest"
   },
   "devDependencies": {
     "@capacitor/cli": "latest",
+    "react-scripts": "5.0.1",
     "vite": "^2.9.13"
   },
   "author": "",
